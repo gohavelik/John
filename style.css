@@ -1,0 +1,272 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+header {
+    display: flex;
+    max-width: 950px;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    
+    
+    
+    
+    
+    
+}
+
+.menu-items {
+    font-family: 'Heebo', sans-serif;
+    
+font-size: 20px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0px;
+
+
+
+
+    display: flex;
+    align-items: center;
+    height: 81px;
+    margin: 0 0 0 37px;
+
+}
+
+.link:hover {
+    color:#FF6464;
+}
+
+.hamburger {
+
+  margin-top: 20px;
+
+  width: 32px;
+  height: 22px;
+
+  display: none;
+  /* display: block; */
+
+ 
+    
+}
+
+.menu-button {
+    
+    
+    width: 35px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: 7px;
+    
+}
+
+/* @media (max-width:375px) {
+
+    .hamburger {
+        
+        display: flex;
+        
+        justify-content: flex-end;
+
+        height: auto;
+        width: auto;
+        
+        
+        margin-right: 18px;
+        
+        margin-top: 18px;
+    }
+
+    
+
+    .menu-items {
+        
+        
+
+        justify-content: center;
+        margin: 0;
+        font-weight: 600;
+        
+        
+        
+    }
+
+    .header {
+        display: block;
+        padding: 0;
+    }
+    
+} */
+
+
+.textH1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    
+ 
+}
+
+.textH2 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+
+}
+
+/* .greeting-left {
+    display: flex; 
+    max-width: 497px;
+} */
+
+/* .greeting-right {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 360px;  
+    justify-content: flex-end;
+    text-align: right;
+} */
+
+.greeting-left_button {
+    font-family: 'Heebo', sans-serif;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    justify-content: center;
+    align-items: center;
+
+   
+
+
+    width: 208px;
+    height: 47px;
+    background: #FF6464;
+    border-radius: 2px;
+
+    color: #FFFFFF;
+
+
+    
+
+}
+
+.greeting-left_button:hover {
+    background-color: #c04949;
+    cursor: pointer;
+}
+
+.greeting-left_button:active {
+    color: #cccccc;
+}
+
+.greetings {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 856px;
+    margin-top: 78px;
+    margin-bottom: 71px;
+    
+
+}
+
+.greetings-left_text-big {
+    display: flex;
+    margin-bottom: 44px;
+}
+
+.greetings-left_text {
+    display: flex; 
+    margin-bottom: 35px;
+}
+
+.greeting-right {
+    margin-left: 115px;
+}
+
+.Posts {
+    display: flex;
+    max-width: auto;
+    background-color: #EDF7FA;   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Posts-information {
+    display: flex;
+    max-width:856px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    
+    
+    
+}
+
+.Recent-posts {
+    /* display: flex; */
+    
+    
+    
+}
+
+.View-all_button {
+    /* display: flex; */
+    
+}

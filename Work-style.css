@@ -1,0 +1,188 @@
+.menu-items {
+    font-family: 'Heebo', sans-serif;
+    
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+
+
+
+
+    display: flex;
+    align-items: center;
+    height: 81px;
+    margin: 0 0 0 37px;
+
+}
+
+header {
+    display: flex;
+    max-width: 950px;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    
+    
+    
+    
+    
+    
+}
+
+.footer-end {
+    display: flex;
+    height: 182px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.obrezatel-pipisek {
+    max-width: 856px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-media {
+    display: flex;
+    flex-direction: column
+
+
+}
+
+.first-otdel {
+    display: flex;
+}
+
+.media {
+    margin-right:35px
+}
+
+.second-otdel {
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-copyright {
+    display: flex;
+    
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+  
+    
+    color: #21243D;
+    
+}
+
+
+.Works-title {
+    font-family: "Heebo", sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 71px;
+
+}
+
+.Feat-work1 {
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.Feat-work1-content {
+    margin-left: 20px;
+
+}
+
+.Feat-work1-title {
+    font-family: "Heebo", sans-serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.Date-Category {
+    display: flex;
+
+}
+
+.Feat-work1-category {
+    margin-left: 20px;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+
+
+    color: #8695A4;
+
+
+}
+
+.Feat-work1-text {
+    margin-top :30px;
+}
+
+.Feat-work1-date {
+    font-family: 'Heebo', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+padding-left: 12px;
+
+/* identical to box height, or 333% */
+
+
+color: #FFFFFF;
+
+/* border: 1px solid #000000; */
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+background: #142850;
+border-radius: 16px;
+
+width: 62px;
+height: 25px;
+}
+
+.Feat-work1-text {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+/* Dark Color */
+
+    color: #21243D;
+
+}
+
+.Feat-work-border {
+    display: flex;
+    flex-direction: inherit;
+    border: 1px solid #E0E0E0;
+    
+}
+
+.Date-Category {
+    margin-top: 20px;
+}
+
+.Feat-work1-image {
+    margin-top: 10px;
+}

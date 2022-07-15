@@ -439,6 +439,7 @@ text-align: left;
 
 .Feat-work1 {
     display: flex;
+    margin-top: 23px;
 }
 
 .Feat-work1-content {
@@ -486,6 +487,7 @@ font-style: normal;
 font-weight: 900;
 font-size: 18px;
 line-height: 25px;
+padding-left: 12px;
 
 /* identical to box height, or 333% */
 

@@ -455,6 +455,10 @@ text-align: left;
 
 }
 
+.Feat-work1-title:hover {
+    cursor: pointer;
+}
+
 .Date-Category {
     display: flex;
 

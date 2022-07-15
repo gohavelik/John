@@ -637,4 +637,29 @@ text-align: left;
     .Featured-works-title {
         justify-content: center;
     }
+
+    .Feat-work1 {
+        flex-direction: column;
+    }
+
+    .Feat-work1-image {
+        width: 340px;
+        margin-top: 0;
+        margin-left:20px ;
+    }
+
+    .Feat-work1-icon {
+        width: 340px;
+    }
+
+    .Posts-main {
+        padding-top: 30px;
+    }
+
+    .Posts-information {
+        display: flex;
+        margin-bottom: 30px;
+        margin-left:10px;
+        margin-right: 10px;
+    }
 }

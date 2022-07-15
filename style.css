@@ -419,6 +419,8 @@ letter-spacing: 0px;
 
 .obrezatel-pipisek {
     max-width: 856px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Featured-works {
@@ -440,6 +442,7 @@ text-align: left;
 .Feat-work1 {
     display: flex;
     margin-top: 23px;
+    margin-bottom: 15px;
 }
 
 .Feat-work1-content {
@@ -514,4 +517,65 @@ height: 25px;
 
     color: #21243D;
 
+}
+
+.Feat-work-border {
+    display: flex;
+    flex-direction: inherit;
+    border: 1px solid #E0E0E0;
+}
+
+.Date-Category {
+    margin-top: 20px;
+}
+
+.Feat-work1-image {
+    margin-top: 10px;
+}
+
+.footer-end {
+    display: flex;
+    height: 182px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer-media {
+    display: flex;
+    flex-direction: column
+
+
+}
+
+.media {
+    margin-right:35px
+}
+
+.footer-copyright {
+    display: flex;
+    
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    
+    
+    
+    
+    
+    color: #21243D;
+    
+}
+
+.first-otdel {
+   display: flex;
+}
+
+.second-otdel {
+    display: flex;
+    margin-top: 20px;
 }

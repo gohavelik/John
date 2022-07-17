@@ -305,3 +305,38 @@ margin-bottom: 37px;
 .Post-image2 {
     margin-bottom: 44px;
 }
+
+@media (max-width: 700px) {
+    .Post-title {
+        font-family: "Heebo", sans-serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: left;
+
+    }
+
+    .Post-image1 {
+        max-width: 340px;
+    }
+
+    .Post-image2 {
+        max-width: 340px;
+    }
+
+    .Post-image {
+        max-width: 340px;
+    }
+
+    .Text1 {
+        display: flex;
+        max-width: 400px;
+    }
+
+    .Text {
+        display: flex;
+        max-width: 400px;
+    }
+    
+}

@@ -43,6 +43,8 @@ header {
     max-width: 856px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .footer-media {
@@ -189,4 +191,27 @@ height: 25px;
 
 .Feat-work1-title:hover {
     cursor: pointer;
+}
+
+@media(max-width:666px) {
+    .Works-title {
+        font-family: "Heebo", sans-serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+
+    }
+
+    .Feat-work1 {
+        flex-direction: column;
+    }
+
+    .Feat-work1-image {
+        width: 325px;
+        margin-top: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
